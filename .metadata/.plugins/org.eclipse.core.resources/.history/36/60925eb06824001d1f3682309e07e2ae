@@ -1,0 +1,24 @@
+package ch5;
+
+import java.util.Scanner;
+
+public class Exercise5_6 {
+
+	public static void main(String[] args) {
+		String[] words = {"television","computer","mouse","phone"};
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int i=0; i<words.length; i++) {
+			char[] question = words[i].toCharArray(); //String을 char[]으로 변환
+			/**/
+			
+			System.out.printf("Q%d. %s의 정답을 입력하세요 > ", i+1, new String(question));
+			String answer = scanner.nextLine();
+			
+			//trim()으로 answer의 좌우공백 제거, equals()로 word[i]와 비교
+		}
+
+	}
+
+}
