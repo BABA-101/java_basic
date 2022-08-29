@@ -1,0 +1,26 @@
+package ch7;
+
+class Product{
+	int price;
+	int bonusPoint;
+	
+	Product(int price){
+		this.price=price;
+		bonusPoint=(int)(price/10.0); //보너스포인트는 제품 가격의 10%
+	}
+}
+
+class Tv1 extends Product{
+	Tv1(){
+		super(100); //조상클래스의 생성자 소환
+	}
+	public String toString() { return "TV"; }
+}
+
+public class Ex7_8 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

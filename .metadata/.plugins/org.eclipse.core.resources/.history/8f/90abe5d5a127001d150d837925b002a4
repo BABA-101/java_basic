@@ -1,0 +1,21 @@
+package ch7;
+
+class Car {
+	String color;
+	int door;
+	
+	void drive() {
+		System.out.println("drive, Brrrrr...");
+	}
+	void stop() {
+		System.out.println("STOP!!");
+	}
+}
+public class Ex7_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

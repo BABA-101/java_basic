@@ -1,0 +1,15 @@
+package ch7;
+
+class Product{
+	int price;
+	int bonusPoint;
+}
+
+public class Ex7_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
