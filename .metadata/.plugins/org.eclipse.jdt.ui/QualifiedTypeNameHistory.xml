@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ch7.Outer2.InstanceInner"/>
+    <fullyQualifiedTypeName name="ch7.Outer2.StaticInner"/>
+    <fullyQualifiedTypeName name="ch7.Outer3.Inner"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
